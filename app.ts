@@ -5,11 +5,11 @@ const PORT = 3000;
 
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Bem-vindo ao meu servidor!');
+  res.send('Bem-vindo !');
 });
 
 
-app.get('/redirecionar', (req: Request, res: Response) => {
+app.get('/redirect', (req: Request, res: Response) => {
   res.redirect('/');
 });
 
